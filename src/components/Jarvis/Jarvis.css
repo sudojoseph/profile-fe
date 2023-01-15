@@ -1,0 +1,86 @@
+.jarvis-container{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+.jarvis {
+    height: 200px;
+	cursor: pointer;
+}
+
+.bubble-container {
+	position: absolute;
+    right: -20px;
+    bottom: 200px;
+}
+
+.bubble {
+	min-height: 70px;
+	background:   #282C34;
+    color: #61F7D4;
+    border: 1px solid #61F7D4;
+    z-index: 4;
+	display: block;
+	margin: 0 auto;
+	padding: 15px;
+    padding-bottom: 45px;
+	border-radius: 20px;
+	margin-top: 50px;
+	font-size: 18px;
+	text-align: left;
+}
+
+.pointer {
+	height: 40px;
+	width: 40px;
+	background-color: #282C34;
+    border: 1px solid #61F7D4;
+	margin: 0 auto;
+	transform: rotate(-135deg);
+	border-radius: 0 0 12px 0;
+	margin-top: -22px;
+	position: relative;
+	left: calc(0.5vw - 50px);
+}
+
+.chat-container {
+	max-height: 240px;
+	overflow-y: auto;
+	scrollbar-width: auto;
+    scrollbar-color: #61f7d4 #ffffff;
+	margin: 44px 15px 10px;
+}
+
+.close-button {
+	padding: 15px;
+	cursor: pointer;
+	position: absolute;
+	right: 5px;
+	top: 50px;
+}
+
+.hide {
+	display: none;
+}
+
+input, button {
+	background-color: #282C34;
+	border: 1px solid #61f7d4;
+	color: #61f7d4;
+	border-radius: 7px;
+	font-size: 18px;
+
+}
+
+input {
+	height: 24px;
+	padding: 10px;
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+button {
+	margin: 0 auto;
+	text-align: center;
+}
+

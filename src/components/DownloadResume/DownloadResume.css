@@ -1,0 +1,9 @@
+.download-resume-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+}
+
+a {
+    text-align: center;
+}
