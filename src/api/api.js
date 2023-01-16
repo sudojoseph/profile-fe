@@ -3,8 +3,7 @@ import axios from "axios";
 
 const config = {
 	headers: {
-		"Referer": "https://63c5202e315d222ba131d1b0--tubular-baklava-dea664.netlify.app/",
-		"Referrer-Policy": "strict-origin-when-cross-origin"
+		Allow: POST
 	},
 };
 
@@ -15,12 +14,12 @@ export class Api {
     }
 
     askTravisQuestion = async(question) => {
-        const answer = await axios.post(`${this.baseUrl}/jarvis`, { question: question });
+        const answer = await axios.post(`${this.baseUrl}/jarvis`, { question: question }, config);
         return answer.data;
     }
 
     sendMessageToTelegramBot = async(message) => {
-        console.log("🚀 ~ file: api.js:15 ~ Api ~ sendMessageToTelegramBot=async ~ message", message)
+        console.log("🚀 ~ file: api.js:15 ~ Api ~ sendMessageToTelegramBot=async ~ message", message, config)
         const responce = await axios.post(`${this.baseUrl}/telegram`, { message: message });
         return responce.data;
     };
