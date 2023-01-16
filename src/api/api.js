@@ -1,5 +1,13 @@
 import axios from "axios";
 
+
+const config = {
+	headers: {
+		"Referer": "https://63c5202e315d222ba131d1b0--tubular-baklava-dea664.netlify.app/",
+		"Referrer-Policy": "strict-origin-when-cross-origin"
+	},
+};
+
 export class Api {
 
     constructor() {
