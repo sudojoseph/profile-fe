@@ -67,3 +67,13 @@ p {
     background-color: #282C34!important;
     border: 1px solid #61F7D4;
   }
+
+  button {
+    cursor: pointer;
+    transition: 0.3 all;
+  }
+
+  button:hover {
+    background-color: #61F7D4;
+    color: #282C34;
+  }
