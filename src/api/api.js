@@ -3,7 +3,7 @@ import axios from "axios";
 export class Api {
 
     constructor() {
-        this.baseUrl = 'http://ec2-54-175-27-134.compute-1.amazonaws.com:5000'
+        this.baseUrl = 'process.env.REACT_APP_SERVER_URL'
     }
 
     askTravisQuestion = async(question) => {
