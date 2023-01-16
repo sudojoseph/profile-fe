@@ -3,7 +3,7 @@ import axios from "axios";
 export class Api {
 
     constructor() {
-        this.baseUrl = 'process.env.REACT_APP_SERVER_URL'
+        this.baseUrl = process.env.REACT_APP_SERVER_URL
     }
 
     askTravisQuestion = async(question) => {
