@@ -3,7 +3,7 @@ import axios from "axios";
 
 const config = {
 	headers: {
-		Allow: POST
+		Allow: 'POST'
 	},
 };
 
