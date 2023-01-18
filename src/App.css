@@ -2,6 +2,10 @@
   color: #64FFDA;
 }
 
+input:focus, textarea:focus {
+  outline: none;
+}
+
 .App {
   text-align: center;
   background-color: #282c34;
