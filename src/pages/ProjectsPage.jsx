@@ -3,11 +3,17 @@ import ProjectContainer from '../components/ProjectContainer/ProjectContainer';
 import updawgDesktop from '../img/projectScreenshots/updawgDesktop.png';
 import yscoreDesktop from '../img/projectScreenshots/yscoreDesktop.png';
 import networxDesktop from '../img/projectScreenshots/networxDesktop.png';
+import kululuDesktop from '../img/projectScreenshots/kululuDesktop.png';
+
 
 
 
 const ProjectsPage = () => {
   const projects = [{
+    title: 'Kululu',
+    description: 'Updawg is an online pet adoption website dedicated to helping animals find their forever homes. We provide a safe and secure platform for potential pet owners to search for their perfect pet. The website is easy to use and allows users to search for animals by breed, age, size, and location. It also provide detailed information about each animal, including photos, and general information. The goal was to make the adoption process as smooth and stress-free as possible. This page was build with: React, Nodejs and MYSQL',
+    img: kululuDesktop
+  },{
     title: 'Updawg',
     description: 'Updawg is an online pet adoption website dedicated to helping animals find their forever homes. We provide a safe and secure platform for potential pet owners to search for their perfect pet. The website is easy to use and allows users to search for animals by breed, age, size, and location. It also provide detailed information about each animal, including photos, and general information. The goal was to make the adoption process as smooth and stress-free as possible. This page was build with: React, Nodejs and MYSQL',
     img: updawgDesktop
