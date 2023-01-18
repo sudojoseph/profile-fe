@@ -7,6 +7,7 @@ import ContactPage from './pages/ContactPage.jsx';
 import LandingPage from './pages/LandingPage';
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import ProjectsPage from "./pages/ProjectsPage";
+import SkillsPage from "./pages/SkillsPage";
 
 function App() {
   const ref = useRef(null);
@@ -25,6 +26,7 @@ function App() {
             data-scroll-section />
           <AboutPage data-scroll-section/>
           <ProjectsPage data-scroll-section/>
+          <SkillsPage />
           <ContactPage data-scroll-section/>
           <SocialMediaLinks data-scroll-section/>
         </main>

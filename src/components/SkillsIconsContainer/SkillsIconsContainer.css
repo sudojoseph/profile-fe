@@ -1,0 +1,22 @@
+.skill-icons-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.skill-icons-container h1 {
+    width: 100%;
+    color: #61F7D4;
+    font-size: 35px;
+}
+
+.skill-icons-container div {
+    width: 33%;
+}
+
+.skill-icons-container div img {
+    width: 125px;
+}

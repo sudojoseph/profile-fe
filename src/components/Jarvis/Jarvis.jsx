@@ -47,7 +47,7 @@ const Jarvis = () => {
     setDisplayBubble(true);
   }
 
-  const jarvisIntroMessage = "Hi I am Jarvis, Joseph's assistant! I am powered by Open AI but build and trained in NodeJS by Joseph. I am here to anwer any question about his profesional carreer!";
+  const jarvisIntroMessage = "Hi my name is Jarvis! I am powered by Open AI but build and trained Joseph. I am here to anwer any question regarding his carreer!";
 
   useEffect(() => {
     updateChatConversation('Jarvis', jarvisIntroMessage);
