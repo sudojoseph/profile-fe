@@ -9,8 +9,13 @@
     align-items: center;
 }
 
-.about-container p {
-    margin: 20px;
+.about-text {
+    margin: 20px 120px;
+    font-size: 33px;
+    width: 100%;
+    max-width: 1000px;
+    line-height: 78px;
+    color: #64ffda;
 }
 
 .profile-img {

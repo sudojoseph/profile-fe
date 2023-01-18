@@ -1,0 +1,9 @@
+.project-description {
+    width: 500px;
+    margin-right: 100px;
+    padding-left: 25px;
+}
+
+.project-description p {
+    font-size: 27px;
+}
