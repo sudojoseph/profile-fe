@@ -29,16 +29,16 @@ function App() {
             data-scroll-section />
           <AboutPage data-scroll-section/>
           <ProjectsPage data-scroll-section/>
-          <SkillsPage />
-          <DownloadResumePage />
+          <SkillsPage data-scroll-section/>
+          <DownloadResumePage data-scroll-section/>
           <ContactPage data-scroll-section/>
         </main>
         </div>
       </LocomotiveScrollProvider>
       <FadeIn delay='1400'>
         <Jarvis data-scroll-section/>
+        <SocialMediaLinks data-scroll-section/>
       </FadeIn>
-      <SocialMediaLinks data-scroll-section/>
     </>
   );
 }

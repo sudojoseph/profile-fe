@@ -60,9 +60,7 @@ const Jarvis = () => {
         <div className="bubble">
           <span className='close-button' onClick={closeBubble}>X</span>
           <div className='chat-container'>
-            <FadeIn >
               <p><b>{chatMessage?.author}:</b> {chatMessage?.message}</p>
-            </FadeIn>
           </div>
           <form onSubmit={(e) => onFormSubmit(e)}>
             <input type='text' value={inputValue} onChange={(e) => handleInputChange(e)}/>

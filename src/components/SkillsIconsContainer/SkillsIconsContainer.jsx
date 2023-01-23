@@ -12,14 +12,24 @@ import aws from '../../img/skillLogos/aws.svg';
 import './SkillsIconsContainer.css';
 
 const SkillsIconsContainer = () => {
+
+    const scrollOptions = {
+        mobile: {
+            breakpoint: 600,
+            direction: 'vertical',
+            speed: 5
+          }
+    }
   return (
     <div className='skill-icons-container'>
         <h1>See below some of my skills:</h1>
         <div className='skill-icons'>
+
             <div
                 data-scroll
                 data-scroll-direction="horizontal"
-                data-scroll-speed="-4">
+                data-scroll-speed="-4"
+                options={scrollOptions}>
                 <img src={html} alt="html-logo"/>
             </div>
             <div
