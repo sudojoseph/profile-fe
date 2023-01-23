@@ -29,9 +29,12 @@ const Jarvis = () => {
 
     try {
       e.preventDefault();
+      api.sendMessageToTelegramBot(`The following question was submitted: ${inputValue}`);
       const answer = await api.askTravisQuestion(inputValue);
       setInputValue('');
-      updateChatConversation('Jarvis', answer.choices[0].text);
+      const answerText = answer.choices[0].text;
+      api.sendMessageToTelegramBot(`The following answer was given: ${answerText}`);
+      updateChatConversation('Jarvis', answerText);
     } catch (error) {
       updateChatConversation('Jarvis', error.message);
     }
