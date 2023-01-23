@@ -7,7 +7,7 @@ const DownloadResume = () => {
       data-scroll
       data-scroll-direction="horizontal"
       data-scroll-speed="-6">
-      <p>Prefer looking at paper than talking to AI. No worries, download my resume below!</p>
+      <p>Prefer looking at paper than talking to a bot? No worries, download my resume below!</p>
       <a href={Resume} download="Joseph Davidson Resume" target='_blank'><button>Download Resume</button></a>
     </div>
   )

@@ -11,15 +11,15 @@ import kululuDesktop from '../img/projectScreenshots/kululuDesktop.png';
 const ProjectsPage = () => {
   const projects = [{
     title: 'Kululu',
-    description: 'Is a cool web app where you can create a live Photo Wall that updates in real-time with every photo or video added by the user and their event guests. At Kululu, I am in charge of functionality both in the frontend and the backend. The frontend here is in React and the backend is in NodeJS and Firebase.',
+    description: 'Kululu is a cool web app where you can create a live Photo Wall that updates in real-time with every photo or video added by the user and their event guests. At Kululu, I am in charge of functionality both in the front end and the back end. The front end here is in React and the back end is in NodeJS and Firebase.',
     img: kululuDesktop
   },{
     title: 'Updawg',
-    description: 'Updawg is an online pet adoption website dedicated to helping animals find their forever homes. I provided a safe and secure platform for potential pet owners to search for their perfect pet. The website is easy to use and allows users to search for animals by breed, age, size, and location. It also provides detailed information about each animal, including photos, and general information. The goal was to make the adoption process as smooth and stress-free as possible. This page was build with: React, Nodejs and MYSQL',
+    description: 'Updawg is an online pet adoption website dedicated to helping animals find their forever homes. I provided a safe and secure platform for potential pet owners to search for their perfect pet. The website is easy to use and allows users to search for animals by breed, age, size, and location. It also provides detailed information about each animal, including photos, and general information. The goal was to make the adoption process as smooth and stress-free as possible. This page was built with: React, Nodejs and MYSQL',
     img: updawgDesktop
   },{
     title: 'Yscore',
-    description: 'YScore is a web app that helps you estimate your credit score and provides you with tips and tricks on how to improve it. YScore won first place in the boot camp hackathon for its front end. The frontend for this project was done in react and the backend in NodeJS and MongoDB.',
+    description: 'YScore is a web app that helps you estimate your credit score and provides you with tips and tricks on how to improve it. YScore won first place in the boot camp hackathon for its front end. The front end for this project was done in react and the back end in NodeJS and MongoDB.',
     img: yscoreDesktop
   },{
     title: 'Networx',

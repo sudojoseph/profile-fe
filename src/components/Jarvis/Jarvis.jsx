@@ -45,11 +45,11 @@ const Jarvis = () => {
   }
 
   const openBubble = () => {
-    updateChatConversation('Jarvis', `You're back! Lets talk some more, shell we?`);
+    updateChatConversation('Jarvis', `You're back! Lets talk some more, shall we?`);
     setDisplayBubble(true);
   }
 
-  const jarvisIntroMessage = "Hi my name is Jarvis! I am powered by Open AI but build and trained Joseph. I am here to anwer any question regarding his carreer!";
+  const jarvisIntroMessage = "Hi my name is Jarvis! I'm powered by Open AI but built and trained by Joseph. I'm here to answer any questions about his career.";
 
   useEffect(() => {
     updateChatConversation('Jarvis', jarvisIntroMessage);
@@ -67,7 +67,7 @@ const Jarvis = () => {
           </div>
           <form onSubmit={(e) => onFormSubmit(e)}>
             <input type='text' value={inputValue} onChange={(e) => handleInputChange(e)}/>
-            <button type='submit'>Ask Question</button>
+            <button type='submit'>Ask</button>
           </form>
         </div>
         <div className="pointer"></div>

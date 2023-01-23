@@ -38,7 +38,7 @@ const ContactForm = () => {
   return (
     <div className='contact-form-container'>
       <p>Jarvis didn't tell you enough about me yet...? Or want to leave a comment?</p>
-      <p>Write a message below and my Telegram Bot (R2-D2) will forward it to me!</p>
+      <p>Write a message below and my Telegram Bot, R2-D2, will forward it to me!</p>
       <input placeholder='Name (optional)' type="text" value={inputValues.name} name='name' onChange={(e) => handleInputChange(e)}/>
       <input placeholder='Email (optional)' type="text" value={inputValues.email} name='email' onChange={(e) => handleInputChange(e)}/>
       <textarea value={textFieldValue} onChange={(e) => handleTextAreaChange(e)} placeholder={'leave me a message'} />
