@@ -9,6 +9,7 @@ import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import ProjectsPage from "./pages/ProjectsPage";
 import SkillsPage from "./pages/SkillsPage";
 import DownloadResumePage from "./pages/DownloadResumePage";
+import FadeIn from "react-fade-in/lib/FadeIn";
 
 function App() {
   const ref = useRef(null);
@@ -34,8 +35,10 @@ function App() {
         </main>
         </div>
       </LocomotiveScrollProvider>
+      <FadeIn delay='1400'>
+        <Jarvis data-scroll-section/>
+      </FadeIn>
       <SocialMediaLinks data-scroll-section/>
-      <Jarvis data-scroll-section/>
     </>
   );
 }

@@ -34,4 +34,13 @@
         width: 100%;
         padding-bottom: 35px;
     }
+
+    .skill-icons {
+        max-height: unset;
+    }
+
+    .skill-icons-container > div {
+        padding-bottom: 55px;
+    }
   }
+  

@@ -1,4 +1,4 @@
-.jarvis-container{
+.jarvis-container {
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -82,5 +82,22 @@ input {
 button {
 	margin: 0 auto;
 	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	.jarvis-container {
+		left: 0;
+		bottom: 10px;
+	}
+	
+	.bubble-container {
+		max-width: 100vw;
+		left: 0;
+		bottom: 110px;
+	}
+
+	.jarvis {
+		height: 100px;
+	}
 }
 

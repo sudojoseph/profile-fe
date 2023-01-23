@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import FadeIn from 'react-fade-in/lib/FadeIn';
 import { Api } from '../../api/api';
 import image from '../../img/jarvis.png';
 import './Jarvis.css';
@@ -59,7 +60,9 @@ const Jarvis = () => {
         <div className="bubble">
           <span className='close-button' onClick={closeBubble}>X</span>
           <div className='chat-container'>
-            <p><b>{chatMessage?.author}:</b> {chatMessage?.message}</p>
+            <FadeIn >
+              <p><b>{chatMessage?.author}:</b> {chatMessage?.message}</p>
+            </FadeIn>
           </div>
           <form onSubmit={(e) => onFormSubmit(e)}>
             <input type='text' value={inputValue} onChange={(e) => handleInputChange(e)}/>
