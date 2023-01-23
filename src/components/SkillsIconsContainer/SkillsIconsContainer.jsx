@@ -15,29 +15,55 @@ const SkillsIconsContainer = () => {
   return (
     <div className='skill-icons-container'>
         <h1>See below some of my skills:</h1>
-        <div>
-            <img src={html} alt="html-logo"/>
-        </div>
-        <div>
-            <img src={css} alt="css-logo"/>
-        </div>
-        <div>
-            <img src={js} alt="js-logo" />
-        </div>
-        <div>
-            <img src={react} alt="react-logo" />
-        </div>
-        <div>
-            <img src={nodejs} alt="nodejs-logo" />
-        </div>
-        <div>
-            <img src={mongodb} alt="mongodb-logo" />
-        </div>
-        <div>
-            <img src={mysql} alt="mysql-logo" />
-        </div>
-        <div>
-            <img src={aws} alt="aws-logo" />
+        <div className='skill-icons'>
+            <div
+                data-scroll
+                data-scroll-direction="horizontal"
+                data-scroll-speed="-4">
+                <img src={html} alt="html-logo"/>
+            </div>
+            <div
+            data-scroll
+            data-scroll-direction="vertical"
+            data-scroll-speed="4">
+                <img src={css} alt="css-logo"/>
+            </div>
+            <div
+            data-scroll
+            data-scroll-direction="horizontal"
+            data-scroll-speed="4">
+                <img src={js} alt="js-logo" />
+            </div>
+            <div
+            data-scroll
+            data-scroll-direction="horizontal"
+            data-scroll-speed="-6">
+                <img src={react} alt="react-logo" />
+            </div>
+            <div
+                data-scroll
+                data-scroll-direction="vertical"
+                data-scroll-speed="6">
+                <img src={nodejs} alt="nodejs-logo" />
+            </div>
+            <div
+            data-scroll
+            data-scroll-direction="horizontal"
+            data-scroll-speed="6">
+                <img src={mongodb} alt="mongodb-logo" />
+            </div>
+            <div
+            data-scroll
+            data-scroll-direction="vertical"
+            data-scroll-speed="8">
+                <img src={mysql} alt="mysql-logo" />
+            </div>
+            <div
+            data-scroll
+            data-scroll-direction="vertical"
+            data-scroll-speed="8">
+                <img src={aws} alt="aws-logo" />
+            </div>
         </div>
     </div>
   )

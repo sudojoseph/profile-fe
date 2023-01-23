@@ -8,12 +8,14 @@ import LandingPage from './pages/LandingPage';
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import ProjectsPage from "./pages/ProjectsPage";
 import SkillsPage from "./pages/SkillsPage";
+import DownloadResumePage from "./pages/DownloadResumePage";
 
 function App() {
   const ref = useRef(null);
 
   const options = {
     smooth: true,
+    smoothMobile: true
   } 
 
   return (
@@ -27,11 +29,12 @@ function App() {
           <AboutPage data-scroll-section/>
           <ProjectsPage data-scroll-section/>
           <SkillsPage />
+          <DownloadResumePage />
           <ContactPage data-scroll-section/>
-          <SocialMediaLinks data-scroll-section/>
         </main>
         </div>
       </LocomotiveScrollProvider>
+      <SocialMediaLinks data-scroll-section/>
       <Jarvis data-scroll-section/>
     </>
   );

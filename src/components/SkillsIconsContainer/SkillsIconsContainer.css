@@ -1,16 +1,20 @@
 .skill-icons-container {
     width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 100px;
 }
 
 .skill-icons-container h1 {
     width: 100%;
     color: #61F7D4;
     font-size: 35px;
+    padding-bottom: 150px;
+}
+
+.skill-icons {
+    max-height: 100vh;
+    width: 100vw!important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .skill-icons-container div {
@@ -20,3 +24,14 @@
 .skill-icons-container div img {
     width: 125px;
 }
+
+@media only screen and (max-width: 600px) {
+    /* .skill-icons-container {
+        flex-direction: column;
+    } */
+
+    .skill-icons-container div {
+        width: 100%;
+        padding-bottom: 35px;
+    }
+  }

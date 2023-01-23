@@ -37,13 +37,11 @@ const Jarvis = () => {
   };
 
   const closeBubble = () => {
-    updateChatConversation('Jarvis', 'OK, click on me if you need me again. For now, see you!')
-    setTimeout(() => {
-      setDisplayBubble(false);
-    }, 2000);
+    setDisplayBubble(false);
   }
 
   const openBubble = () => {
+    updateChatConversation('Jarvis', `You're back! Lets talk some more, shell we?`);
     setDisplayBubble(true);
   }
 
