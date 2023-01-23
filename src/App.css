@@ -18,6 +18,10 @@ body {
   max-width: 1800px;
 }
 
+.App p {
+  text-align: left;
+}
+
 .App .page-container {
   min-height: 150vh;
   display: flex;
@@ -182,8 +186,16 @@ p {
       flex-direction: column;
       max-width: 100vw;
       max-height: unset;
+      padding: 0;
     }
-    .App .page-container:first-child {
-      max-height: 100vh;
+    .App .page-container {
+      min-height: 100vh;
+      padding: 0 20px;
+      padding-bottom: 100px;
+    }
+
+    .App p {
+      font-size: 21px!important;
+      line-height: 31px;
     }
   }

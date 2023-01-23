@@ -55,13 +55,14 @@ a {
     width: 213.6px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .socialMediaLinks {
         transform: rotate(0);
         width: 100%;
         left:0;
         right: 0;
         top: 0;
+        margin: 0;
         position: sticky;
     }
   }
