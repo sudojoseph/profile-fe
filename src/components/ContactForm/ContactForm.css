@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 
-textarea, input {
+.contact-form-container textarea, .contact-form-container input {
     background-color: transparent;
     border: 1px solid #61F7D4;
     padding: 15px;
