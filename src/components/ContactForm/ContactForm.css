@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 
-textarea {
+textarea, input {
     background-color: transparent;
     border: 1px solid #61F7D4;
     padding: 15px;
@@ -14,4 +14,9 @@ textarea {
     border-radius: 10px;
     color: #61F7D4;
     margin-bottom: 15px;
+    font-size: 16px;
+}
+
+textarea {
+    margin-top: 7px;
 }
