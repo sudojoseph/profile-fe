@@ -51,6 +51,10 @@
 	margin: 44px 15px 10px;
 }
 
+.chat-container p {
+	font-size: 20px;
+}
+
 .close-button {
 	padding: 15px;
 	cursor: pointer;
