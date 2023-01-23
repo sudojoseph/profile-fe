@@ -35,10 +35,8 @@ function App() {
         </main>
         </div>
       </LocomotiveScrollProvider>
-      <FadeIn delay='1400'>
-        <Jarvis data-scroll-section/>
-        <SocialMediaLinks data-scroll-section/>
-      </FadeIn>
+      <Jarvis data-scroll-section/>
+      <SocialMediaLinks data-scroll-section/>
     </>
   );
 }

@@ -10,10 +10,10 @@
 
 .about-text {
     margin: 20px 120px;
-    font-size: 28px;
+    font-size: 22px;
     width: 100%;
     max-width: 1000px;
-    line-height: 64px;
+    line-height: 44px;
     color: #64ffda;
 }
 
@@ -63,4 +63,10 @@
         margin-right: 0;
         margin-left: 0;
     }
+
+    .profile-picture-container {
+        height: 200px;
+        min-width: 200px;
+    }
+
 }
