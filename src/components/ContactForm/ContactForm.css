@@ -19,5 +19,5 @@ textarea, input {
 
 textarea {
     margin-top: 7px;
-    height: 250px;
+    min-height: 125px;
 }
