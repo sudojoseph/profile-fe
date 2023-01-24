@@ -2,7 +2,9 @@
     position: fixed;
     bottom: 40px;
     right: 40px;
+	font-family: monospace!important;
 }
+
 .jarvis {
     height: 200px;
 	cursor: pointer;

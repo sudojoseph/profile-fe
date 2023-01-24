@@ -15,6 +15,7 @@
     color: #61F7D4;
     margin-bottom: 15px;
     font-size: 16px;
+    font-family: monospace !important;
 }
 
 textarea {
