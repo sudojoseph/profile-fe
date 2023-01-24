@@ -182,6 +182,12 @@ p {
   }
 
   @media only screen and (max-width: 600px) {
+
+    body, html {
+      max-width: 100vw;
+      overflow-x: hidden;
+    }
+
     .split-content-container, .App, .page-container {
       flex-direction: column;
       max-width: 100vw;
