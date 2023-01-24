@@ -91,13 +91,14 @@ button {
 @media only screen and (max-width: 600px) {
 	.jarvis-container {
 		left: 10px;
-		bottom: 110px;
+		bottom: 10px;
 		position: fixed;
 	}
 	
 	.bubble-container {
 		max-width: 100vw;
 		left: 0;
+		bottom: 120px;
 	}
 
 	.jarvis {
