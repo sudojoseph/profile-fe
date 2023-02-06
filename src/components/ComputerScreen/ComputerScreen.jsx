@@ -11,7 +11,7 @@ const ComputerScreen = ({img}) => {
               <img src={img} alt="project-image" className='project-image'/>
           </div>
     </article>
-  )
-}
+  );
+};
 
-export default ComputerScreen
+export default ComputerScreen;

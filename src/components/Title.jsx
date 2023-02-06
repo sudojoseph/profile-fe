@@ -11,7 +11,7 @@ const Title = () => {
         <h2 className='accent-color'>Full Stack Developer</h2>
       </FadeIn>
     </div>
-  )
-}
+  );
+};
 
-export default Title
+export default Title;

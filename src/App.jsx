@@ -10,7 +10,6 @@ import { Api } from "./api/api";
 import ProjectsPage from "./pages/ProjectsPage";
 import SkillsPage from "./pages/SkillsPage";
 import DownloadResumePage from "./pages/DownloadResumePage";
-import FadeIn from "react-fade-in/lib/FadeIn";
 
 function App() {
   const ref = useRef(null);
@@ -20,7 +19,7 @@ function App() {
   const options = {
     smooth: true,
     smoothMobile: true
-  } 
+  }; 
 
   useEffect( () => {
     api.sendMessageToTelegramBot('You got a visiter on the page!');
@@ -46,6 +45,6 @@ function App() {
       <SocialMediaLinks data-scroll-section/>
     </>
   );
-}
+};
 
 export default App;

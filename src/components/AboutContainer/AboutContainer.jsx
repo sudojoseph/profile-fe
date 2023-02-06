@@ -20,4 +20,4 @@ const AboutContainer = () => {
   )
 }
 
-export default AboutContainer
+export default AboutContainer;

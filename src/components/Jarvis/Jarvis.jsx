@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import FadeIn from 'react-fade-in/lib/FadeIn';
 import { Api } from '../../api/api';
 import image from '../../img/jarvis.png';
 import './Jarvis.css';
@@ -55,7 +54,7 @@ const Jarvis = () => {
     updateChatConversation('Jarvis', jarvisIntroMessage);
   },[]);
 
-  const bubbleClasses = `bubble-container ${displayBubble ? '' : 'hide'}`
+  const bubbleClasses = `bubble-container ${displayBubble ? '' : 'hide'}`;
 
   return (
     <div className='jarvis-container'>
@@ -74,7 +73,7 @@ const Jarvis = () => {
       </div>
       <img className='jarvis' src={image} onClick={openBubble}/>
     </div>
-  )
-}
+  );
+};
 
-export default Jarvis
+export default Jarvis;

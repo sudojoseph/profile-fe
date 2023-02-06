@@ -1,22 +1,22 @@
-import {useState} from 'react'
+import {useState} from 'react';
 import { Api } from '../../api/api';
-import { useAlert } from 'react-alert'
+import { useAlert } from 'react-alert';
 import './ContactForm.css';
 
-const api = new Api;
+const api = new Api();
 
 const ContactForm = () => {
   const [textFieldValue, setTextFieldValue] = useState('');
   const [inputValues, setInputValues] = useState({
     name: '',
     email: ''
-  })
+  });
 
   const alert = useAlert();
 
   const handleTextAreaChange = (e) => {
     setTextFieldValue(e.target.value);
-  }
+  };
 
   const handleInputChange = (e) => {
     setInputValues({...inputValues, [e.target.name]: e.target.value});
@@ -44,7 +44,7 @@ const ContactForm = () => {
       <textarea value={textFieldValue} onChange={(e) => handleTextAreaChange(e)} placeholder={'leave me a message'} />
       <button onClick={handleSubmit}>Submit</button>
     </div>
-  )
-}
+  );
+};
 
-export default ContactForm
+export default ContactForm;

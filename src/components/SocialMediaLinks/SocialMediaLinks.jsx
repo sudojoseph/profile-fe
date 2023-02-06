@@ -1,5 +1,5 @@
 import './SocialMediaLinks.css';
-import Resume from '../../documents/Joseph_Davidson_CV.pdf'
+import Resume from '../../documents/Joseph_Davidson_CV.pdf';
 
 const SocialMediaLinks = () => {
   return (
@@ -14,7 +14,7 @@ const SocialMediaLinks = () => {
             <li>CV</li>
         </a>
     </ul>
-  )
-}
+  );
+};
 
-export default SocialMediaLinks
+export default SocialMediaLinks;

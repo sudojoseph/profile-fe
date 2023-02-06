@@ -1,4 +1,3 @@
-import React from 'react'
 import ProjectContainer from '../components/ProjectContainer/ProjectContainer';
 import updawgDesktop from '../img/projectScreenshots/updawgDesktop.png';
 import yscoreDesktop from '../img/projectScreenshots/yscoreDesktop.png';
@@ -32,7 +31,6 @@ const ProjectsPage = () => {
       {projects.map((project, index) => <ProjectContainer key={index} title={project.title} description={project.description} img={project.img}/>)}
     </>
   );
-
 };
 
 export default ProjectsPage;

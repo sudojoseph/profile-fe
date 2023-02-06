@@ -68,7 +68,7 @@ const SkillsIconsContainer = () => {
             </div>
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default SkillsIconsContainer
+export default SkillsIconsContainer;
