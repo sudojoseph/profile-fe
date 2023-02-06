@@ -1,5 +1,4 @@
 import './AboutContainer.css';
-import profileImg from '../../img/profilePic.jpg';
 
 
 const AboutContainer = () => {
