@@ -205,3 +205,9 @@ p {
       line-height: 31px;
     }
   }
+
+  @media screen and (max-width: 600px) and (max-height: 700px) {
+    .App .page-container:last-child {
+      padding-bottom: 200px;
+    }
+  }
