@@ -20,6 +20,7 @@ body {
 
 .App p {
   text-align: left;
+  color: white;
 }
 
 .App .page-container {
