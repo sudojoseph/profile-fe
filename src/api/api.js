@@ -11,10 +11,11 @@ export class Api {
 
     constructor() {
         this.baseUrl = process.env.REACT_APP_SERVER_URL;
+        this.jarvisServiceUrl = process.env.JARVES_SERVER_URL
     };
 
     askTravisQuestion = async(question) => {
-        const answer = await axios.post(`${this.baseUrl}/jarvis`, { question: question }, config);
+        const answer = await axios.post(`${this.jarvisServiceUrl}`, { question: question }, config);
         return answer.data;
     };
 
