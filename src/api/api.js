@@ -21,7 +21,7 @@ export class Api {
     };
 
     sendMessageToTelegramBot = async(message) => {
-        const responce = await axios.post(`${this.baseUrl}/telegram`, { question: message });
+        const responce = await axios.post(`${this.baseUrl}/telegram`, { message: message });
         return responce;
     };
 };
