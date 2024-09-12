@@ -36,13 +36,13 @@ function App() {
           <AboutPage data-scroll-section/>
           <ProjectsPage data-scroll-section/>
           <SkillsPage data-scroll-section/>
-          <DownloadResumePage data-scroll-section/>
+          <DownloadResumePage api={api} data-scroll-section/>
           <ContactPage data-scroll-section/>
         </main>
         </div>
       </LocomotiveScrollProvider>
       <Jarvis data-scroll-section/>
-      <SocialMediaLinks data-scroll-section/>
+      <SocialMediaLinks api={api} data-scroll-section/>
     </>
   );
 };

@@ -2,8 +2,7 @@ import './SocialMediaLinks.css';
 import Resume from '../../documents/Joseph_Davidson_CV.pdf';
 import { Api } from '../../api/api';
 
-const SocialMediaLinks = () => {
-  const api = new Api;
+const SocialMediaLinks = ({api}) => {
   return (
     <ul className='socialMediaLinks'>
         <a onClick={() => api.sendMessageToTelegramBot('Visiter opened LinkedIn')} href="https://www.linkedin.com/in/joseph-davidson-a90490105/" target='_blank'>

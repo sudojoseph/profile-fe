@@ -1,9 +1,9 @@
 import DownloadResume from "../components/DownloadResume/DownloadResume";
 
-const DownloadResumePage = () => {
+const DownloadResumePage = ({api}) => {
   return (
     <div className='page-container'>
-        <DownloadResume />
+        <DownloadResume api={api} />
     </div>
   );
 };
