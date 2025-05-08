@@ -10,7 +10,7 @@ const config = {
 export class Api {
 
     constructor() {
-        this.baseUrl = process.env.REACT_APP_SERVER_URL;
+        this.baseUrl = 'https://ancient-journey-07275.herokuapp.com';
         this.jarvisServiceUrl = 'https://ancient-journey-07275.herokuapp.com'
     };
 
